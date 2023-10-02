@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "0qUtxm6i12fF2lmKD3faMgISAeY7AxzOxfpdIUSzRsQ=",
+  "Source": "Inventory",
+  "BasePath": "_content/Inventory",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\factorazy-be\\microservice-demo\\Catalog\\Catalog.csproj",
+      "Version": 2,
+      "Source": "Catalog",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
