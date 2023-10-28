@@ -1,21 +1,11 @@
 using Catalog.Setting;
 using MassTransit;
+using Common;
+using Common.RabbitMQ;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
-builder.Services.AddMassTransit(d =>
- d.UsingRabbitMq((context, configurator) => {
-     var rabbitMQSettings = builder.Configuration.GetSection(nameof(RabbitMQSetting)).Get<RabbitMQSetting>();
-     configurator.Host(rabbitMQSettings.Host,"/", h => {
-         h.Username("user");
-         h.Password("password");
-     });
-     configurator.ConfigureEndpoints(context, new KebabCaseEndpointNameFormatter("Catalog", false));
- })
-);
-builder.Services.AddMassTransitHostedService();
-
+builder.Services.AddMassTransitService();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -46,3 +46,4 @@ E:\factorazy-be\microservice-demo\Inventory\bin\Debug\net6.0\RabbitMQ.Client.dll
 E:\factorazy-be\microservice-demo\Inventory\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 E:\factorazy-be\microservice-demo\Inventory\bin\Debug\net6.0\System.Text.Json.dll
 E:\factorazy-be\microservice-demo\Inventory\bin\Debug\net6.0\System.Threading.Channels.dll
+E:\factorazy-be\microservice-demo\Inventory\bin\Debug\net6.0\Common.dll

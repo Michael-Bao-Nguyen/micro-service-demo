@@ -22,7 +22,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\pc\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net6.0": {
@@ -40,6 +42,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Common": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[8.1.1, )"
@@ -90,7 +96,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\pc\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net6.0": {
@@ -112,6 +120,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Common": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[8.1.1, )"

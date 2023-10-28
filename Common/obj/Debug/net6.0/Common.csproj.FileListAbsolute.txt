@@ -1,0 +1,12 @@
+E:\factorazy-be\microservice-demo\Common\bin\Debug\net6.0\Common.deps.json
+E:\factorazy-be\microservice-demo\Common\bin\Debug\net6.0\Common.dll
+E:\factorazy-be\microservice-demo\Common\bin\Debug\net6.0\Common.pdb
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\Common.dll
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\refint\Common.dll
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\Common.pdb
+E:\factorazy-be\microservice-demo\Common\obj\Debug\net6.0\ref\Common.dll

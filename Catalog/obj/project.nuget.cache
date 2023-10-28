@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "UA58BV8pJS9mxYjaQRd6gJRJ5BB9ow9T2r/RXrU+xZwVm5eThp4cgOYKtlDLwoTbAAQEzJDquLh3btk3gRGLgg==",
+  "dgSpecHash": "uYdB0bElDDLLP7ydFhX7oNxilBwEmBxVdAkhtt69mUgELTlafyjnh/q20JodEiIOZFBjuTQqZQEU4RNBUVx1Bg==",
   "success": true,
   "projectFilePath": "E:\\factorazy-be\\microservice-demo\\Catalog\\Catalog.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\common\\1.0.1\\common.1.0.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\masstransit\\8.1.1\\masstransit.8.1.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\masstransit.abstractions\\8.1.1\\masstransit.abstractions.8.1.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\masstransit.rabbitmq\\8.1.1\\masstransit.rabbitmq.8.1.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\6.0.1\\microsoft.extensions.diagnostics.healthchecks.6.0.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\6.0.1\\microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.1.nupkg.sha512",

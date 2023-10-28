@@ -8,11 +8,24 @@
     ".NETCoreApp,Version=v6.0": {
       "Catalog/1.0.0": {
         "dependencies": {
+          "Common": "1.0.1",
           "MassTransit.RabbitMQ": "8.1.1",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "Catalog.dll": {}
+        }
+      },
+      "Common/1.0.1": {
+        "dependencies": {
+          "MassTransit.RabbitMQ": "8.1.1",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Common.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
         }
       },
       "MassTransit/8.1.1": {
@@ -60,6 +73,11 @@
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
@@ -222,6 +240,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Common/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-slW0Dhf4UDs7fhF+kk6tonBueF8iQKeHv2s+sV7WMZXrH09PtWizjY6jZO0/mWv1R1YHTPSUOIE5hAwEz8xYJg==",
+      "path": "common/1.0.1",
+      "hashPath": "common.1.0.1.nupkg.sha512"
+    },
     "MassTransit/8.1.1": {
       "type": "package",
       "serviceable": true,
@@ -256,6 +281,13 @@
       "sha512": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
       "path": "microsoft.extensions.configuration.abstractions/6.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
       "type": "package",

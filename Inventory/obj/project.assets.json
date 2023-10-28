@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Common/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit.RabbitMQ": "8.1.1",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Common.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Common.dll": {}
+        }
+      },
       "MassTransit/8.1.1": {
         "type": "package",
         "dependencies": {
@@ -81,6 +94,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
             "related": ".xml"
           }
         }
@@ -455,6 +484,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Common": "1.0.1",
           "MassTransit.RabbitMQ": "8.1.1",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -471,6 +501,18 @@
     }
   },
   "libraries": {
+    "Common/1.0.1": {
+      "sha512": "slW0Dhf4UDs7fhF+kk6tonBueF8iQKeHv2s+sV7WMZXrH09PtWizjY6jZO0/mWv1R1YHTPSUOIE5hAwEz8xYJg==",
+      "type": "package",
+      "path": "common/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "ReadMePackage.md",
+        "common.1.0.1.nupkg.sha512",
+        "common.nuspec",
+        "lib/net6.0/Common.dll"
+      ]
+    },
     "MassTransit/8.1.1": {
       "sha512": "Vy8GinrC/uGhazdlVhF2rKggzSyAB8CCNci3cvNwoBFuG5Nc29hiwED/71xMXEbYOLChIG+ntw9eiqwify8+xg==",
       "type": "package",
@@ -787,6 +829,25 @@
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+      "sha512": "b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1452,6 +1513,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Catalog >= 1.0.0",
+      "Common >= 1.0.1",
       "MassTransit.RabbitMQ >= 8.1.1",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1478,7 +1540,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\pc\\.nuget\\packages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {}
       },
       "frameworks": {
         "net6.0": {
@@ -1500,6 +1564,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Common": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "MassTransit.RabbitMQ": {
             "target": "Package",
             "version": "[8.1.1, )"
