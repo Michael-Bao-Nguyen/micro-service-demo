@@ -63,11 +63,11 @@ namespace Catalog.Controllers
         [HttpPost("add-new-summaries")]
         public async Task<IActionResult> AddNew( [FromBody] Category category) {
             categories.Add(category);
-            Uri uri = new Uri("rabbitmq://localhost/todoQueue");
-            var endPoint = await _bus.GetSendEndpoint(uri);
-            await endPoint.Send(category);
+            //Uri uri = new Uri("rabbitmq://localhost/todoQueue");
+            //var endPoint = await _bus.GetSendEndpoint(uri);
+            //await endPoint.Send(category);
 
-            _publishEndpoint.Publish(category);
+            //_publishEndpoint.Publish(category);
             //
             var factory = new ConnectionFactory { HostName = "localhost", UserName = "user" , Password = "password"};
             using var connection = factory.CreateConnection();
